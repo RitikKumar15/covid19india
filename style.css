@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+#total {
+  font-size: 30px;
+}
+
+#box {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+  #date {
+    font-size: 10px;
+  }
+
+  #total {
+    font-size: 13.5px;
+  }
+
+  #box {
+    font-size: 8px;
+  }
+
+  h6 {
+    font-size: 10px;
+  }
+}
