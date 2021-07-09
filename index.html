@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+  <title>Covid19 India</title>
+</head>
+<body>
+  <nav class="navbar d-flex justify-content-center navbar-dark bg-dark">
+    <h1>COVID19<span class="text-primary">INDIA</span></h1>
+  </nav>
+  <div class="container-fluid my-3 text-center">
+    <p class="text-info">
+      covid19 india tracker of district or state
+    </p>
+    <p id="date" class="my-2"></p>
+    <div id="total" class="row my-4 text-center">
+      <div class="col-3">
+        <p class="text-danger fw-bold">
+          Confirmed
+        </p>
+        <p id="confirm" class="text-danger"></p>
+      </div>
+      <div class="col-3">
+        <p class="text-primary fw-bold">
+          Active
+        </p>
+        <p id="active" class="text-primary"></p>
+      </div>
+      <div class="col-3">
+        <p class="text-success fw-bold">
+          Recovered
+        </p>
+        <p id="recover" class="text-danger"></p>
+      </div>
+      <div class="col-3">
+        <p class="text-info fw-bold">
+          Decreased
+        </p>
+        <p id="decrease" class="text-info"></p>
+      </div>
+    </div>
+    <div id="box">
+      <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th class="text-warning" scope="col">States</th>
+            <th class="text-warning" scope="col">Confirmed</th>
+            <th class="text-warning" scope="col">Active</th>
+            <th class="text-warning" scope="col">Recovered</th>
+            <th class="text-warning" scope="col">Decreased</th>
+          </tr>
+        </thead>
+        <tbody id="main"></tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="text-center">
+    <span><h1 class="d-inline-flex alert-primary text-primary">COVID19INDIA</h1></span>
+    <h6 class="text-info my-2">We stand with everyone fighting on the frontlines</h6>
+    <br />
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="covid.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
